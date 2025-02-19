@@ -1,21 +1,28 @@
-# AICTE Cybersecurity Internship - Image Steganography
+# Image Steganography with GUI
+
+This project demonstrates a simple implementation of **Image Steganography** using Python. It hides a secret message inside an image using basic steganography techniques and provides a simple GUI for encryption and decryption.
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Requirements](#requirements)
+
 
 ## Overview
-This project demonstrates **image steganography**, a technique to hide a secret message inside an image. The message is encrypted into pixel values and can only be decrypted using a passcode.
+This project embeds a secret text message into an image's pixel values. The message is hidden by modifying the pixel values in a subtle way. The encryption and decryption processes are secured with a passcode. A graphical user interface (GUI) is built using Tkinter, making it user-friendly.
 
 ## Features
-- **Message Encryption**: Hides a text message inside an image by modifying pixel values.
-- **Passcode Protection**: Ensures only authorized users can decrypt the message.
-- **Decryption**: Recovers the original message when the correct passcode is entered.
-
-## How It Works
-1. The user inputs a **secret message** and a **passcode**.
-2. Each character of the message is stored in the image pixels.
-3. The encrypted image is saved as `encryptedImage.jpg`.
-4. To decrypt, the user must enter the correct passcode to retrieve the message.
+- **GUI Interface**: Uses Tkinter for an interactive experience.
+- **Encryption**: Hides a secret message within the image.
+- **Decryption**: Retrieves the hidden message when the correct passcode is entered.
+- **Cross-Platform**: Works on Windows, Linux, and other platforms that support Python and Tkinter.
 
 ## Requirements
-- Python 3.x
-- OpenCV (`cv2`)
-- OS module
-- Tkinter
+- **Python 3.x**
+- **OpenCV**: For image processing.
+- **Tkinter**: Comes pre-installed with most Python distributions.
+- **OS module**: Standard library module for operating system interactions.
+
+
+
+

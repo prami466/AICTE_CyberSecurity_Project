@@ -18,3 +18,4 @@ This project demonstrates **image steganography**, a technique to hide a secret 
 - Python 3.x
 - OpenCV (`cv2`)
 - OS module
+- Tkinter
